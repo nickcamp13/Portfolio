@@ -22,11 +22,29 @@ body {
   position: relative;
 }
 
-#education-wrapper h2 {
+#education-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1rem;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
 }
 
-#nick .image-content {
+#education-content h2 {
+  vertical-align: middle;
+}
+
+#education-content img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#image-content {
   width: 100%;
   position: absolute;
   top: 35%;
@@ -38,7 +56,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 80%;
   border-radius: 50%;
   border: 2px black solid;
 }
