@@ -6,7 +6,9 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #6CB4EE;
+  background-color: black;
+  background-image: linear-gradient(to right, #DCF8EF, #FEE2F8);
+  background-image: linear-gradient(to left, #B3F6D8, #52A7C1);
 }
 
 .look-at-nick {
@@ -37,6 +39,7 @@ body {
 
 #education-content h2 {
   vertical-align: middle;
+  text-align: left;
 }
 
 #education-content img {
@@ -47,7 +50,7 @@ body {
 #image-content {
   width: 100%;
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -57,6 +60,5 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-radius: 50%;
-  border: 2px black solid;
+  border-radius: 15%;
 }
